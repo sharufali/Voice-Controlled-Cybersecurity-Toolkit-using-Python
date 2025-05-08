@@ -1,0 +1,50 @@
+Project Report for GitHub
+Project Title: Voice-Controlled Network Automation and Exploitation
+Description:
+This Python-based project integrates voice recognition and text-to-speech features to automate network-related tasks such as scanning for open ports, changing MAC addresses, and running system exploits. It uses the following libraries and tools:
+
+pyttsx3: For text-to-speech conversion.
+
+speech_recognition: For converting speech to text.
+
+nmap: A tool for network scanning and enumeration.
+
+Metasploit: For exploiting known vulnerabilities in services.
+
+ifconfig: To change the MAC address of network interfaces.
+
+Features:
+Voice-Activated Commands: Recognize specific phrases like "start scanning", "mac change", and "system hacking" to trigger network operations.
+
+MAC Address Randomization: Change the MAC address of the specified network interface to a randomly generated address.
+
+Nmap Network Scanning: Perform aggressive network scans to detect open ports and services on the local machine.
+
+Metasploit Exploitation: Automate the exploitation of vulnerabilities using Metasploit's framework.
+
+Automated NSE Script Scans: Run NSE (Nmap Scripting Engine) scripts to analyze services identified during the network scan.
+
+Setup Instructions:
+Install dependencies:
+
+pip install pyttsx3 SpeechRecognition
+
+Ensure that nmap, metasploit, and ifconfig are installed on your machine.
+
+Set up a microphone for voice input.
+
+Run the program with administrative privileges for commands like ifconfig and Metasploit.
+
+Usage:
+When you run the program, speak the following commands:
+
+"start scanning" to initiate an Nmap scan.
+
+"mac change" to change the MAC address of the network interface.
+
+"system hacking" to perform a full network enumeration and exploit known vulnerabilities.
+
+Important Notes:
+This program should only be used in a safe and legal environment, such as penetration testing within a controlled network or a personal testing setup.
+
+Ensure that you have proper authorization before running any exploitations.
